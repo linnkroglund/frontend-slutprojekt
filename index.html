@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <!--Det här är en metatag som behövs för att göra sidan responsiv se: https://getbootstrap.com/docs/4.2/getting-started/introduction/#css   och  https://www.w3schools.com/css/css_rwd_viewport.asp  -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bootstrap4 VS Foundation6</title>
+<meta name="description" content="Bootstrap möter Foundation - vem vinner i användbarhet?"/><meta name="keywords" content="bootstrap4, foundation6, ramverk, nackademin, kvalitetsäkrare, test, frontend" /></head>
+
+
+</head>
+
+<body id="grad" class="container">
+            <header>
+                    
+            <div class="boxring">
+                    <div class="navtop">
+                        <div class="logga">
+                            <img class="loggan" src="./images/Logga.gif" alt="2L Production" display="right">
+                        </div>
+                        
+                    <div> <h1 class="rubrik">BOOTSTRAP<br>
+                        VS<br>
+                        FOUNDATION</h1>
+                    </div>
+            
+                   <div class="description">Bootstrap möter Foundation - vem vinner i användbarhet?</div>
+        
+            
+                    <div class="fight">
+                        <a href="#Inledning"><button class="knapp">1 - 2 - FIGHT!</button></a>
+                    </div>
+            
+                </div>
+            
+            </header>
+                
+            <body>
+                <div class="bg-light container-text">
+                 <!-- container-klassen som använder Flex-box gridsystem och hjälper oss för att få sidan responsiv https://getbootstrap.com/docs/4.2/layout/overview/#containers  -->
+                 <!-- bg-light för den ljusa bakgrunden -->   
+                 <!-- container-text är en egen klass för att bestämma text och font, se style.css -->
+                    
+                
+                    <!--<nav class="navbar sticky-top navbar-dark bg-dark d-none d-sm-block">-->
+         
+                    <nav class="sticky-top  d-none d-sm-block bg-light"> 
+                            <ul class="nav nav-tabs nav-fill">
+                                <li class="nav-item"><a class="nav-link" href="#">Hem</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Round1">Rond 1</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#winner">Resultat</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Contact">Kontakt</a></li>
+                            </ul>
+                    <!-- klassen sticky-top gör att navigation-tabbarna stannar och syns på toppen av dokumentet https://getbootstrap.com/docs/4.2/utilities/position/#sticky-top -->
+                    <!-- nav-fill ser till att navigationsbaren med tabbarna är jämn över hela sidan https://getbootstrap.com/docs/4.2/components/navs/#fill-and-justify-->
+                    <!-- d-none säger att denna sektion inte ska vara synlig, medans d-sm-block gör den synlig från -small och större https://getbootstrap.com/docs/4.2/utilities/display/ -->
+                    <!-- nav-item, nav-tabs och nav-link är klasser som har stilar som hjälper till med padding och placeringsinformation av texten som gör att knapp-placeringarna ser bra ut https://getbootstrap.com/docs/4.2/components/navs/#fill-and-justify -->
+                    </nav>	
+                    
+                    <div>
+                        <h2 id="Inledning">Inledning</h2>
+                            <p>
+                                Foundation och Bootstrap är två responsiva frontend ramverk som är sk open-source, dvs är gratis att använda. Båda har responsiva element med HTML, CSS och JavaScript mallar och färdiga koddelar (sk code snippets) för att förenkla frontend-utvecklarens arbete när hen skapar smidig och snygg navigation, knappar och formulär på hemsidor.
+                                <br><br>
+                                Foundation skapades och drivs av ett företag som heter ZURB. Den första releasen kom september 2011.
+                                <br><br>
+                                Bootstrap släpptes första gången i augusti 2011, och kallades från början "Twitter Blueprint".
+                                <br><br>
+                                På denna sida kommer vi göra ett antal jämförelser mellan dessa två ramverk, utifrån två "rookies" synvinkel. Vilket är enklast att komma igång med? Vilket har störst möjligheter till olika ändringar? Hur enkelt är det att hitta hjälp online om man kör fast? Osäker på vilket av ramverken du ska välja? Förhoppningsvis kan denna sida hjälpa dig en bit mot ditt val av ramverk.
+                                <br><br>
+                                NU KÖR VI!
+        
+                            </p>
+                    </div>
+                    <hr>
+        
+         <!--1,2- Fight! -->
+                    <div>
+                        <h2 id="Round1">Rond 1</h2>
+                        <p>En mätning utav 100 000 topprankade webbplatser visar att:</p>
+                    </div>
+        
+                    <div class="row"> <!-- klassen row skapar en rad/kolumn inom Bootstraps gridsystem https://getbootstrap.com/docs/4.2/layout/grid/#how-it-works-->
+                        <div class="col-md"> <!-- klassen col-md talar om att när storleken på skärmen är medium eller större så ska det vara två kollummer, men är den mindre endast en https://getbootstrap.com/docs/4.2/layout/grid/#how-it-works -->
+                            <h5>Bootstrap</h5>
+                            <p>Ca 12% av alla hemsidor är byggda med Bootstrap <br>
+                            Bootstrap har många unika mallar med stora möjligheter att anpassas för önskade webbplatser (webbshop, blog..)
+                            </p>
+                            
+                        </div>
+                        <div class="col-md">
+                            <h5>Foundation</h5>
+                            <p>Ca 3% av alla hemsidor är uppbyggda med Foundation <br>
+                            Foundation har en rad uppsättning av fördefinierade mallar med färdig kod med många anpassningsmöjligheter.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Sammanfattning</h4>
+                        <p>Med den mätningen tillsammans med nästan 4 gånger fler träffar på Google anser vi att vinnaren i den första ronden är:  Bootstrap!
+                        <br><i>Källa: Google och Htmlpluscss.com</i></p>
+                        <p><b>Ställning: Bootstrap 1-0 Foundation</b> </p>
+                    </div>
+        
+                    <hr>
+                 <!--Nästa rond-->
+                    <div>
+                    <h2 id="Round2">Rond 2</h2>
+                        <p>Vilken av de två ramverken är enklast att komma igång med?</p>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-md"> 
+                            <h5>Bootstrap</h5>
+                            <p>För en ren nybörjare är Bootstrap enkelt att komma igång med. Det finns mycket lathundar (cheapsheets) att hitta på nätet och även dokumentationen från <a href=" https://getbootstrap.com">getBootstrap</a> är lättillgänglig och enkel att förstå. Du kan, men behöver inte ladda ner något för att komma igång, utan kan smidigt länka till hela bootstrap-biblioteket via CDN (Content Delivery Network) </p>
+                        </div>
+                        <div class="col-md">
+                            <h5>Foundation</h5>
+                            <p>Även <a href=" https://foundation.zurb.com/">Foundation</a> har bra och grundläggande dokumentation på grundarens sida. Då de riktar sig mer på den mer vana frontend-utvecklaren och användarantalet heller inte är lika stort som Bootstrap så finns det inte samma underlag av forum att tillgå online. Foundation är ett större ramverk och det rekommenderas att man laddar ned de bibliotek som man behöver för sitt projekt. För en ny användare, som kanske inte vet vad det är man behöver, så blir det en lite längre startsträcka innan man kan sätta igång.</p>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <h4>Sammanfattning</h4>
+                        <p>Vinnare:  Bootstrap!
+                        <br><i>Källa: getbootstrap.com, foundation.zurb.com, Google</i></p>
+                        <p><b>Ställning: Bootstrap 2-0 Foundation</b></p>
+                    </div>
+        
+                    <hr>
+                 <!--Nästa rond-->
+
+                    <div>
+                    <h2 id="Round3">Rond 3</h2>
+                    <p>Vem vinner i flexibilitet?</p>
+                    </div>
+                     <div class="row">
+                        <div class="col-md"> 
+                            <h5>Bootstrap</h5>
+                            <p>Bootstraps ramverk väljer du om du värdesätter hastighet och stabilitet men är dock inte lika flexibelt som Foundation. De färdiga ramarna kan inte påverkas lika enkelt, efter att de har implementerats, som i Foundation.</p>
+                        </div>
+                        <div class="col-md">
+                            <h5>Foundation</h5>
+                            <p>Foundation väljer du när du behöver en större flexibilitet och passar därför bättre för den mer avancerade användaren. Foundation riktar sig mer mot utvecklare som redan besitter och är van att arbeta inom CSS samt webbdesign. </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Sammanfattning</h4>
+                        <p>Vinnare: Foundation är vinnare tack vare sin flexbilitet, även om det krävs mer av dig som användare.
+                        <br><i>Källa: upwork.com</i></p>
+                        <p><b>Ställning: Bootstrap 2-1 Foundation</b></p>
+                    </div>
+        
+                    <hr>
+                  <!--Nästa rond-->   
+                    <div>
+                    <h2 id="Round4">Rond 4</h2>
+                    <p>Hur enkelt är det att hitta information samt hjälp online om man kör fast?</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md"> 
+                            <h5>Bootstrap</h5>
+                            <p>Bootstraps dokumentation är mycket väl beskriven och det är enkelt att söka upp mer information.<BR>Bootstraps populäritet gör så att det är enkelt att hitta forum och sidor för fler frågor och tips.</p>
+                        </div>
+                        <div class="col-md">
+                            <h5>Foundation</h5>
+                            <p>Dokumentationen är väl beskriven och har även beskrivande filmfrekvenser.<BR>Foundation erbjuder möjligheten att certifiera sig, vilket verkar vara mycket populärt bland Frontend-utvecklare.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Sammanfattning</h4>
+                        <p>Vinnare: Oavgjort även i den fjärde ronden.
+                        <br><i>Källa: YouTube (Ricky Garcia m.fl web developers)</i></p>
+                        <p><b>Ställning: Bootstrap 2½ - 1½ Foundation</b></p>
+                    </div>
+        
+                <hr>
+
+             <!--Nästa rond-->
+
+                <div>
+                <h2 id="Round5">Rond 5</h2>
+                <p>Flexbox och XY-grids</p>
+                </div>
+                   <div class="row">
+                        <div class="col-md"> 
+                            <h5>Bootstrap</h5>
+                            <p>Båda ramverken utgår ifrån ”mobilt först”, responsive design och med flexbox-baserade grids (rutnät). Vilket hjälper användaren att bygga upp layouter i alla former och storlekar.<BR>Allt sker på grund av deras 12 kolumner grids, vilket ger naturliga brytpunkter för deras layouter och gränssnitt.</p>
+                        </div>
+                        <div class="col-md">
+                            <h5 >Foundation</h5>
+                            <p>XY Grid är ett helt omarbetat nytt gridsystem som ger både Bootstrap och Foundations användare alternativ på flera gridtyper.<BR>XY-grid inkluderar margin, padding, frame-, block- och vertikala grids. Foundations XY grids har däremot fler extrafunktioner jämfört med Bootstrap.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Sammanfattning</h4>
+                        <p>Vinnare: Foundation! 
+                        <br><i>Källa: codeburst.io</i></p>
+                        <p><b>Ställning: Bootstrap 2½ - 2½ Foundation</b></p>
+                    </div>
+        
+                <hr>
+
+            <!--Nästa rond-->
+                <div>
+                <h2 id="Round6">Rond 6</h2>
+                <p>Namn på klasser</p>
+                </div>
+                    <div class="row">
+                        <div class="col-md"> 
+                            <h5>Bootstrap</h5>
+                            <p>Grundarna till Bootstrap gillar förkortningar, button = btn, column = col, medium = md. Det gör att det är snabbt att skriva, men lite svårare för en nybörjare att klura ut vad allt står för utan dokumentation.
+                                <br><br>
+                            För att ett fält ska synas från skärmstorlek medium och uppåt behövs klasserna - d-none  och d-md-block
+                            </p>
+                        </div>
+                        <div class="col-md">
+                            <h5>Foundation</h5>
+                            <p>Foundations grundare har valt en annan approach. Deras klass-namn upplevs som mer förklarande och lättbegripliga.
+                                <br><br><br>
+                                För att ett fält ska synas från skärmstorlek medium och uppåt behövs klasserna - hide och show-for-medium</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>Sammanfattning</h4>
+                        <p>Vinnare: Oavgjort!
+                        <br><i>Källa: getbootstrap.com, foundation.zurb.com</i></p>
+                        <p><b>Ställning: Bootstrap 3-3 Foundation</b></p>
+                    </div>
+                <hr>
+            <!--Resultat-->
+                <div>
+                <h2 id="winner">Vinnaren är...</h2>
+                <p>Fajt i knappt 6 ronder och Bootstrap 4 besegrade Foundation 6 på teknisk knockout! Med sin styrka i att snabbt komma igång samt sin stabilitet tar Bootstrap hem segern i användbarhet. Förhoppningsvis kan vi få till en returmatch när dem båda ramverken kommer i nya versioner.</p>
+                <img src="images/Rocky.jpg" class="rocky"></img>
+                </div>
+
+                <hr>
+
+                  <!--Kontakt--> 
+        
+                      <div>
+                        <h2 id="Contact">Domare</h2>
+                        <p>Vi som dömt matchen i denna otroligt spännade duell heter Linn och Linda (2L Production)och vi studerar Kvalitetsäkrare och Test på Nackademin (2018-2020). Den här sidan är ett slutprojektet i kursen Frontend med lärare Mahmud Al Hakim. Förhoppningsvis har vi lyckats hjälpa dig att reda ut skillnader mellan dem två ramverken och kanske underlättat just ditt val! </p>
+                    </div>
+                    
+                       
+        
+                    <div class="row">
+                        <div class="col-md"> 
+                            <h5>Linn Kroglund</h5>
+                            <p><img src="images/linn.jpg" class="2L"></img><BR>linn @ kroglund.se</p>
+                        </div>
+                        <div class="col-md">
+                            <h5>Linda Grönberg</h5>
+                            <p><img src="images/linda.jpg"></img><BR>linda @ gronberg.se</p>
+                        </div>
+                    </div> 
+                    <div>
+                        
+                    </div>		
+                    
+                </div>
+        
+            <footer class="container"> Copyright © 2L Production </footer>
+                </body><!--END OF CONTAINER-->
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+                crossorigin="anonymous"></script>
+        </body>
+        
+        </html>
