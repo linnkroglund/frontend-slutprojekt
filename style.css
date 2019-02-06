@@ -11,7 +11,6 @@ header {
     max-width : 100%;
     height : auto;
 }
-
 .rubrik{
     color: #ffffff;
     font-family: 'Arial', serif;
@@ -30,27 +29,18 @@ header {
     font-size: 16px;
  
 }
+.rocky {
+    max-width : 100%;
+    width: 90vw;
+    height: auto;
 
-li {
-    display : inline;
-    margin : 0 10px;
-    }
-a.meny {
-        color : #cccccc;
-        text-transform : uppercase;
-        text-decoration : none;
-        padding : 6px 5px 5px 5px;
-        }
-a:hover, a.on {
-        color : #cc3333;
-        }
-a.pink {
-        color : #cc3333;
-        text-transform : uppercase;
-        text-decoration : none;
-        padding : 6px 18px 5px 18px;
-        }
-    
+}
+.L2 {
+    max-width : 100%;
+    width: 20vw;
+    height: auto;
+
+}
 .boxring {
         background-image: url(images/Boxing.jpg);
         background-repeat: no-repeat;
@@ -59,26 +49,12 @@ a.pink {
         background-position: center top;
         background-size: contain;
     }
-
-.rocky {
-    max-width : 100%;
-    width: 90vw;
-    height: auto;
-
-}
-    
-.2L {
-    max-width : 100%;
-    width: 20vw;
-    height: auto;
-
-}
     
 .logga {
         flex-grow: 1;
     }
     
-    .fight {
+.fight {
         padding: 40px;
         text-align : center;
         width : auto;
@@ -97,7 +73,9 @@ a.pink {
     }
     
 .knapp:hover {
-        background: #ec6b6b
+        background: #ec6b6b;
+        color: #FFFFFF;
+        text-decoration: none;
     }
 body {
     background-color: #000000;
@@ -115,11 +93,11 @@ background-image: linear-gradient(to bottom, #02021f, #12133b, #a8aac9, #d2d2e4,
 }
 
 a {  /*  anger färgen på en länk */
-    color: #447a7cda;
+    color: #141616;
 }
 
 a:hover {  /* ändrar färg på länken när du hovrar med musen över den*/
-    color: #617c7c;
+    color: #447a7cda;
 }
 
 h2 { 
